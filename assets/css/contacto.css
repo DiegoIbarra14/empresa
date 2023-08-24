@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round'
+}
+:root{
+    --background:#ffffff;;
+    --subrayado:#ee78cd;
+    --colorgeneral:#000000;
+    --white-color:#fff;
+    --text-shadow:0 5px 25px rgba(0,0,0,0.1);
+    --box-shadow:0 5px 25px rgb(0 0 0 /20%);
+
+    --scroll-bar-color:#fff;
+    --scroll-thumb-color:#282f4e;
+    --scroll-thum-hover--color:#454f6b;
+    --secundary-color:#26d9cd;
+    --header-color:#b4eeed;
+
+
+
+
+}
+body{
+    background-color: #fbfafa;
+}
+
+
+
+
+
+
+
+
+
+.section-actual{
+    
+
+    
+}
+.section-actual{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url("../assets/images/header-contact.webp");
+    background-size: cover;
+    background-position: top;
+    
+    
+}
+.content-section-actual{
+    width: 90%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.section-actual{
+    padding: 100px 0;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    
+    
+}
+.window-section{
+    width: 200px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.section-actual-links a{
+    font-size: .9em;
+    text-decoration: none;
+    font-weight: 600;
+    
+  
+    color: #000000;
+}
+.section-actual-links span{
+    padding: 0 10px ;
+}
+
+.section-actual-title h3 {
+    position: relative;
+    z-index: 4;
+    
+    
+    font-size: 3.8em;
+    font-family: "Poppins";
+    font-weight:800;
+    color: rgb(83, 228, 201);
+    padding: 20px 0 0  0;
+    text-shadow: 4px  2px #FFF;
+    
+   
+    
+    
+
+
+}
+.section-cards-contact{
+    padding: 120px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    
+    
+}
+.content-card{
+   
+    margin: auto;
+    width:85% ;
+    
+   
+    
+    
+    
+
+}
+.card{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    height: 400px;
+    align-items: center;
+    
+    
+    
+}
+.content-icon{
+    
+    display: flex;
+    justify-content: end;
+    height: 90px;
+ 
+   align-items: center;
+    
+
+}
+
+.content-icon img{
+    
+    
+    
+
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15px;
+   
+    
+    
+   
+
+
+}
+
+.texti{
+    
+    
+   
+    height: 140px;
+    
+   
+}
+
+.content-icon img{
+    height: 80px;
+   
+    
+}
+.content-text h5{
+    font-size: 1.4em;
+    font-weight: 100;
+
+}
+.content-text p{
+    padding: 5px 0;
+    font-size: 1em;
+}
+.content-text span{
+    font-weight: bold;
+}
+@media screen and (min-width:800px) {
+    .section-cards-contact{
+        padding: 120px 0px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        
+        
+    }
+    .card{
+        height: 200px;
+    }
+
+    
+}
